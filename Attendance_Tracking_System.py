@@ -11,8 +11,6 @@ def initialize_known_faces():
     known_names = []
 
     # Add known faces and their names here
-    known_faces.append(face_recognition.face_encodings(face_recognition.load_image_file("photos/ma.jpg"))[0])
-    known_names.append("mahesh babu")
 
     known_faces.append(face_recognition.face_encodings(face_recognition.load_image_file("photos/pr.jpg"))[0])
     known_names.append("Lakshmi Narasimha Patnaik")
